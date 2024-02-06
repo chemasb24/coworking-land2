@@ -1,0 +1,18 @@
+@import "../node_modules/bootstrap/scss/_functions";
+@import "../node_modules/bootstrap/scss/_variables";
+
+$cldark: #004D40;
+$clmedium: #00796B;
+$cllight: #E0F2F1;
+
+// Tema CoworkingLand
+$cl-colors: (
+    "cldark": $cldark,
+    "clmedium": $clmedium,
+    "cllight": $cllight,
+);
+
+$theme-colors: map-merge($cl-colors, $theme-colors);
+
+// Importar las librerías fuente de Bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap';

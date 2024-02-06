@@ -1,0 +1,12 @@
+body{
+    font-family: "Alef", sans-serif;
+}
+
+article{
+    margin-top: 58px;
+}
+
+#menu-superior .active{
+    background-color: #00796B;
+    text-transform: uppercase;
+}
