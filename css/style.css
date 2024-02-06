@@ -6,7 +6,14 @@ main{
     margin-top: 72px;
 }
 
+/* IDs y clases */
+
 #menu-superior .active{
     background-color: #00796B;
     text-transform: uppercase;
+}
+
+.popover-header{
+    background-color: #004D40;
+    color: #E0F2F1;
 }
