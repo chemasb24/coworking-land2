@@ -1,9 +1,9 @@
 body{
-    font-family: "Alef", sans-serif;
+    font-family: "Ubuntu", sans-serif;
 }
 
-article{
-    margin-top: 58px;
+main{
+    margin-top: 72px;
 }
 
 #menu-superior .active{
