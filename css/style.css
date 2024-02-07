@@ -1,6 +1,5 @@
 body{
     font-family: "Mulish", sans-serif;
-    font-size: 1.2em;
 }
 
 main{
@@ -26,4 +25,8 @@ h1, h2 {
 .navbar-brand, #opiniones .card-title{
     font-family: "DM Serif Display", sans-serif;
     font-size: 1.3em;
+}
+
+.carrusel-item h3{
+    font-family: "DM Serif Display", sans-serif;    
 }
