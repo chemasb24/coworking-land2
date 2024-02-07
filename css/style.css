@@ -1,9 +1,14 @@
 body{
-    font-family: "Ubuntu", sans-serif;
+    font-family: "Mulish", sans-serif;
+    font-size: 1.2em;
 }
 
 main{
     margin-top: 72px;
+}
+
+h1, h2 {
+    font-family: "DM Serif Display", sans-serif;
 }
 
 /* IDs y clases */
@@ -11,9 +16,15 @@ main{
 #menu-superior .active{
     background-color: #00796B;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 .popover-header{
     background-color: #004D40;
     color: #E0F2F1;
+}
+
+.navbar-brand, #opiniones .card-title{
+    font-family: "DM Serif Display", sans-serif;
+    font-size: 1.3em;
 }

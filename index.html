@@ -5,18 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Mulish:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://kit.fontawesome.com/f98a5fce63.js" crossorigin="anonymous"></script>
-    <title>Coworking Land 2.0</title>
+    <title>Coworking Land</title>
 </head>
 <body class="text-bg-cllight">
     <!-- Barra de navegación superior con scrollspy-->
     <nav id="menu-superior" class="navbar fixed-top text-bg-cldark p-3">
         <a class="navbar-brand text-cllight" href="#">
-            <img src="./img/logo.png" alt="Logo CoworkingLand" width="25" height="25" class="d-inline-block align-text-top">
-            Coworking Land 2.0
+            <img class="me-2" src="./img/logo.png" alt="Logo CoworkingLand" width="28" height="28" class="d-inline-block align-text-top">
+            Coworking Land
         </a>
         <ul class="nav nav-pills">
             <li class="nav-item">
@@ -30,8 +30,15 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link text-cllight" href="#opiniones">Opiniones</a>
-            </li>
+            </li>            
+            <div class="vr mx-1"></div>            
+            <li class="nav-item">
+                <a class="nav-link text-cllight icon-link icon-link-hover" href="#contactar">Contactar
+                    <svg class="bi text-cllight" aria-hidden="false"><use xlink:href="#arrow-right"></use></svg>
+                </a>
+            </li>   
         </ul>
+
     </nav>
     <main>
         <article class="container-fluid text-center m-0 p-0" data-bs-spy="scroll" data-bs-target="#menu-superior">
@@ -73,53 +80,53 @@
             </section>
             <section class="container-fluid px-3 text-bg-clmedium mt-5 p-0" id="quienes-somos">
                 <!-- Quiénes somos-->
-                <h1 class="py-4 mb-2 mt-3">Quiénes somos</h1>                       
+                <h1 class="py-5 mb-4 mt-3">Qué ofrecemos en Coworking Land</h1>                       
                 <div class="row g-4 row-cols-1 row-cols-md-2 row-cols-lg-4 pb-4">
                     <div class="feature col p-4">
                         <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
-                            <i class="fa-solid fa-desktop"></i>
+                            <i class="fa-solid fa-desktop fa-lg"></i>
                         </div>
                         <h3 class="fs-2 py-3">Espacio de trabajo</h3>
-                        <p class="lh-lg px-3">Te ofrecemos tu espacio de trabajo personal, un lugar tranquilo y familiar donde podrás olvidarte de todo y centrarte en tu trabajo</p>
+                        <p class="lh-base px-3">Te ofrecemos tu espacio de trabajo personal, un lugar tranquilo y familiar donde podrás olvidarte de todo y centrarte en tu trabajo</p>
                     </div>
                     <div class="feature col p-4">
                         <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
-                            <i class="fa-solid fa-user"></i>
+                            <i class="fa-solid fa-user fa-lg"></i>
                         </div>
                         <h3 class="fs-2 py-3">Coworking</h3>
-                        <p class="lh-lg px-3">Comparte espacio con otros freelance de diferentes sectores con los que poder compartir tus inquietudes y colaboraborar en diferentes proyectos</p>
+                        <p class="lh-base px-3">Comparte espacio con otros freelance de diferentes sectores con los que poder compartir tus inquietudes y colaborar en diferentes proyectos</p>
                     </div>
                     <div class="feature col p-4">
                         <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
-                            <i class="fa-solid fa-phone"></i>
+                            <i class="fa-solid fa-phone fa-lg"></i>
                         </div>
                         <h3 class="fs-2 py-3">Servicios</h3>
-                        <p class="lh-lg px-3">Ofrecemos todo tipo de servicios para facilitarte tu trabajo, como recepción de llamadas, correo postal y gestión de tu facturación y contabilidad</p>
+                        <p class="lh-base px-3">Ofrecemos todo tipo de servicios para facilitarte tu trabajo, como recepción de llamadas, correo postal y gestión de tu facturación y contabilidad</p>
                     </div>
                     <div class="feature col p-4">
                         <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
-                            <i class="fa-solid fa-city"></i>
+                            <i class="fa-solid fa-city fa-lg"></i>
                         </div>
                         <h3 class="fs-2 py-3">Oficinas</h3>
-                        <p class="lh-lg px-3">Tenemos oficinas en pleno centro de Barcelona y Madrid, muy buen comunicadas con transporte público y con opción de parking disponible</p>
+                        <p class="lh-base px-3">Tenemos oficinas en pleno centro de Barcelona y Madrid, muy buen comunicadas con transporte público y con opción de parking disponible</p>
                     </div>
                 </div>
             </section>
             <!-- Oficinas -->
             <section class="container my-4 pb-5" id="oficinas">
-                <h1 class="text-clmedium fw-bold py-4 mb-2 mt-3">Nuestras oficinas</h1>   
+                <h1 class="text-clmedium fw-bold py-4 mb-4 mt-3">Nuestras oficinas en Barcelona y Madrid</h1>   
                 <!-- Tarjeta de oficina de Barcelona -->
                 <div class="card rounded-0 text-bg-clmedium px-0 mx-0 border border-cllight">
                     <div class="row d-flex align-items-center g-0">
                         <!-- Mapa de oficina -->
                         <div class="col-lg-4">
-                            <div class="card-body py-4">
-                                <h3 class="card-title py-2">Oficina en Barcelona</h3>
+                            <div class="card-body py-3">
+                                <h3 class="card-title fw-bold py-2">Oficina en Barcelona</h3>
                                 <hr>
                                 <p class="card-text pt-2">C. Aribau, 132, 08036 Barcelona</p>
                                 <p class="card-text">Teléfono: 93.456.22.44</p>
                                 <p class="card-text">Móvil: 688.453.544</p>
-                                <p class="card-text">Email: <a class="text-cllight link-offset-2" href="mailto:barcelona@cwland.com">barcelona@cwland.com</a></p>
+                                <p class="card-text pb-2">Email: <a class="text-cllight link-offset-2" href="mailto:barcelona@cwland.com">barcelona@cwland.com</a></p>
                                 <a href="/contacto.html" class="btn btn-cldark mt-2 mx-2" data-bs-toggle="modal" data-bs-target="#modalBarcelona">Ver oficina</a> <a href="/contacto.html" class="btn btn-cldark mt-2 mx-2">Contactar</a>
                             </div>
                         </div>
@@ -136,13 +143,13 @@
                     <div class="row d-flex align-items-center g-0">
                         <!-- Mapa de oficina -->
                         <div class="col-lg-4">
-                            <div class="card-body py-4">
-                                <h3 class="card-title py-2">Oficina en Madrid</h3>
+                            <div class="card-body py-3">
+                                <h3 class="card-title fw-bold py-2">Oficina en Madrid</h3>
                                 <hr>
                                 <p class="card-text pt-2">C. Gran Vía, 200, 28013 Madrid</p>
                                 <p class="card-text">Teléfono: 91.332.14.89</p>
                                 <p class="card-text">Móvil: 679.522.165</p>
-                                <p class="card-text">Email: <a class="text-cllight link-offset-2" href="mailto:madrid@cwland.com">madrid@cwland.com</a></p>
+                                <p class="card-text pb-2">Email: <a class="text-cllight link-offset-2" href="mailto:madrid@cwland.com">madrid@cwland.com</a></p>
                                 <a href="/contacto.html" class="btn btn-cldark mt-2 mx-2" data-bs-toggle="modal" data-bs-target="#modalMadrid">Ver oficina</a> <a href="/contacto.html" class="btn btn-cldark mt-2 mx-2">Contactar</a>
                             </div>
                         </div>
@@ -157,13 +164,13 @@
             </section>  
             <!-- Servicios -->
             <section class="container-fluid text-bg-clmedium g-0 my-4 px-5 pb-5 pt-3" id="servicios">
-                <h1 class="py-3 mb-2 mt-3">Servicios ofrecidos</h1>
-                <div id="tabla-servicios">
-                    <table class="table table-bordered border border-clmedium mt-3">
+                <h1 class="py-3 mb-4 mt-3">Servicios disponibles en nuestras instalaciones</h1>
+                <div id="tabla-servicios mb-3">
+                    <table class="table table-bordered border border-clmedium mt-3 mb-5">
                         <thead>
                             <tr>
-                                <th scope="col" class="text-bg-cldark py-3">Despacho personal privado</th>
-                                <th scope="col" class="text-bg-cldark py-3">Centralita y correo</th>
+                                <th scope="col" class="text-bg-cldark fs-4 py-3">Despacho personal privado</th>
+                                <th scope="col" class="text-bg-cldark fs-4 py-3">Centralita y correo</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -172,8 +179,8 @@
                                 <td class="text-bg-cllight py-3">Operadora de 9 a 20h de lunes a viernes</td>
                             </tr>
                             <tr>
-                                <td class="text-bg-cllight py-3">Ordenador propio de última generación</td>
-                                <td class="text-bg-cllight py-3">Buzón de Correos personalizado</td>
+                                <td class="text-bg-light py-3">Ordenador propio de última generación</td>
+                                <td class="text-bg-light py-3">Buzón de Correos personalizado</td>
                             </tr>
                             <tr>
                                 <td class="text-bg-cllight py-3">Teléfono con extensión propia</td>
@@ -182,8 +189,8 @@
                         </tbody>
                         <thead>
                             <tr>
-                                <th scope="col" class="text-bg-cldark py-3">Asesoría y facturación</th>
-                                <th scope="col" class="text-bg-cldark py-3">Parking y almacenaje</th>
+                                <th scope="col" class="text-bg-cldark fs-4 py-3">Asesoría y facturación</th>
+                                <th scope="col" class="text-bg-cldark fs-4 py-3">Parking y almacenaje</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -192,8 +199,8 @@
                                 <td class="text-bg-cllight py-3">Parking para coches y motocicletas</td>
                             </tr>
                             <tr>
-                                <td class="text-bg-cllight py-3">Cálculo de tus impuestos trimestrales</td>
-                                <td class="text-bg-cllight py-3">Tu propio escritorio personal</td>
+                                <td class="text-bg-light py-3">Cálculo de tus impuestos trimestrales</td>
+                                <td class="text-bg-light py-3">Tu propio escritorio personal</td>
                             </tr>
                             <tr>
                                 <td class="text-bg-cllight py-3">Consultoría personalizada</td>
@@ -202,10 +209,28 @@
                         </tbody>
                     </table>
                 </div>
+                <div class="row p-0 m-0">
+                    <div class="col-md-6 p-0 m-0">
+                        <ul class="list-group rounded-0">
+                            <li class="list-group-item list-group-item-action active text-bg-cldark fs-4 py-3 fw-bold border-0">Horario de nuestra oficina en Barcelona</li>
+                            <li class="list-group-item list-group-item-action text-bg-cllight py-2 border-0">Lunes a viernes: abierto de 8:00 a 20:00</li>
+                            <li class="list-group-item list-group-item-action text-bg-cllight py-2 border-0">Sábados: abierto de 9:00 a 15:00</li>
+                            <li class="list-group-item list-group-item-action text-bg-cllight py-2 border-0">Domingos y festivos: cerrado</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 p-0 m-0">
+                        <ul class="list-group rounded-0">
+                            <li class="list-group-item list-group-item-action active text-bg-cldark fs-4 py-3 fw-bold border-0">Horario de nuestra oficina en Madrid</li>
+                            <li class="list-group-item list-group-item-action text-bg-cllight py-2 border-0">Lunes a viernes: abierto de 8:30 a 21:00</li>
+                            <li class="list-group-item list-group-item-action text-bg-cllight py-2 border-0">Sábados: abierto de 9:30 a 15:00</li>
+                            <li class="list-group-item list-group-item-action text-bg-cllight py-2 border-0">Domingos y festivos: cerrado</li>
+                        </ul>
+                    </div>
+                </div>
             </section>
             <!-- Servicios -->
             <section class="container-fluid g-0 my-4 p-3" id="opiniones">
-                <h1 class="text-clmedium fw-bold py-3 mb-2 mt-3">Opiniones de clientes</h1>
+                <h1 class="text-clmedium fw-bold py-4 mb-2 mt-3">Opiniones de nuestros coworkers</h1>
                 <!-- Contenedor de Opiniones-->
                 <div class="d-flex flex-wrap justify-content-evenly align-items-end mt-4 mb-5 mx-4">
                     <!-- Contenedor de Opinión -->
@@ -216,11 +241,10 @@
                         <div class="card-body text-bg-clmedium py-3 px-5 rounded-bottom text-center">
                             <h5 class="card-title">Luís Góngora</h5>
                             <hr>
-                            <cite class="card-text lh-lg">"El mejor sitio donde trabajar con tranquilidad y donde conocer otros freelancers para compartir opiniones."</cite>
-                            <p class="card-text text-end mt-3"><small>Oficina: Madrid</small></p>
-                            <button type="button" class="btn btn-cldark my-1" data-bs-toggle="popover" data-bs-placement="bottom" title="Luís Góngora" data-bs-content="23 años, arquitecto madrileño, 7 meses en Coworking Land.">
+                            <cite class="card-text lh-base">"El mejor sitio donde trabajar con tranquilidad y donde conocer otros freelancers para compartir opiniones."</cite>
+                            <button type="button" class="btn btn-cldark mt-4 mb-2 me-3" data-bs-toggle="popover" data-bs-placement="bottom" title="Luís Góngora" data-bs-content="23 años, arquitecto madrileño, 7 meses en Coworking Land.">
                                 Más info
-                            </button>                        
+                            </button>                     
                         </div>
                     </div>
                     <!-- Contenedor de Opinión -->
@@ -231,9 +255,8 @@
                         <div class="card-body text-bg-clmedium py-3 px-5 rounded-bottom text-center">
                             <h5 class="card-title">Ana Peñas</h5>
                             <hr>
-                            <cite class="card-text lh-lg">"Perfecta localización cerca del centro de la ciudad y con todo tipo de servicios a pocos minutos de la oficina."</cite>
-                            <p class="card-text text-end mt-3"><small>Oficina: Barcelona</small></p>
-                            <button type="button" class="btn btn-cldark my-1" data-bs-toggle="popover" data-bs-placement="bottom" title="Ana Peñas" data-bs-content="32 años, abogada colombiana, 2 años en Coworking Land.">
+                            <cite class="card-text lh-base">"Perfecta localización cerca del centro de la ciudad y con todo tipo de servicios a pocos minutos de la oficina."</cite>
+                            <button type="button" class="btn btn-cldark mt-4 mb-2 me-3" data-bs-toggle="popover" data-bs-placement="bottom" title="Ana Peñas" data-bs-content="32 años, abogada colombiana, 2 años en Coworking Land.">
                                 Más info
                             </button>                        
                         </div>
@@ -241,14 +264,13 @@
                     <!-- Contenedor de Opinión -->
                     <div class="d-flex flex-column card mx-3 mb-5 border-clmedium" style="width: 20rem;">
                         <!-- Imagen -->
-                        <img class="card-img-top" src="./img/opinion3.jpg" alt="Matias Erlunk">
+                        <img class="card-img-top" src="./img/opinion3.jpg" alt="Joseph Erlunk">
                         <!-- Texto -->
                         <div class="card-body text-bg-clmedium py-3 px-5 rounded-bottom text-center">
-                            <h5 class="card-title">Matias Erlunk</h5>
+                            <h5 class="card-title">Joseph Erlunk</h5>
                             <hr>
-                            <cite class="card-text lh-lg">"A very nice and quiet place to work everyday and have a chat with your workmates in the meanwhile."</cite>
-                            <p class="card-text text-end mt-3"><small>Oficina: Barcelona</small></p>
-                            <button type="button" class="btn btn-cldark my-1" data-bs-toggle="popover" data-bs-placement="bottom" title="Matias Erlunk" data-bs-content="28 años, programador web noruego, 3 meses en Coworking Land.">
+                            <cite class="card-text lh-base">"Perfect location and a friendly environment, the place is really nice and quiet, I'd recommend it to any friend."</cite>
+                            <button type="button" class="btn btn-cldark mt-4 mb-2 me-3" data-bs-toggle="popover" data-bs-placement="bottom" title="Joseph Erlunk" data-bs-content="28 años, programador web noruego, 3 meses en Coworking Land.">
                                 Más info
                             </button>                        
                         </div>
@@ -261,9 +283,8 @@
                         <div class="card-body text-bg-clmedium py-3 px-5 rounded-bottom text-center">
                             <h5 class="card-title">Eva Lindstop</h5>
                             <hr>
-                            <cite class="card-text lh-lg">"You won't find a better place to meet new people and exchange opinions, the office is really nice and confy."</cite>
-                            <p class="card-text text-end mt-3"><small>Oficina: Madrid</small></p>
-                            <button type="button" class="btn btn-cldark my-1" data-bs-toggle="popover" data-bs-placement="bottom" title="Eva Lindstop" data-bs-content="19 años, diseñadora gráfica holandesa, 4 años en Coworking Land.">
+                            <cite class="card-text lh-base">"You won't find a better place to meet new people and exchange opinions, the office is really nice and confy."</cite>
+                            <button type="button" class="btn btn-cldark mt-4 mb-2 me-3" data-bs-toggle="popover" data-bs-placement="bottom" title="Eva Lindstop" data-bs-content="19 años, diseñadora gráfica holandesa, 4 años en Coworking Land.">
                                 Más info
                             </button>                        
                         </div>
@@ -276,9 +297,8 @@
                         <div class="card-body text-bg-clmedium py-3 px-5 rounded-bottom text-center">
                             <h5 class="card-title">Lucía Silva</h5>
                             <hr>
-                            <cite class="card-text lh-lg">"El mejor sitio donde trabajar con tranquilidad y donde conocer otros freelancers para compartir opiniones."</cite>
-                            <p class="card-text text-end mt-3"><small>Oficina: Barcelona</small></p>
-                            <button type="button" class="btn btn-cldark my-1" data-bs-toggle="popover" data-bs-placement="bottom" title="Lucía Silva" data-bs-content="36 años, traductora gallega, 1 año y medio en Coworking Land.">
+                            <cite class="card-text lh-base">"El mejor sitio donde trabajar con tranquilidad y donde conocer otros freelancers para compartir opiniones."</cite>
+                            <button type="button" class="btn btn-cldark mt-4 mb-2 me-3" data-bs-toggle="popover" data-bs-placement="bottom" title="Lucía Silva" data-bs-content="36 años, traductora gallega, 3 años y medio en Coworking Land.">
                                 Más info
                             </button>                        
                         </div>
@@ -291,9 +311,8 @@
                         <div class="card-body text-bg-clmedium py-3 px-5 rounded-bottom text-center">
                             <h5 class="card-title">Pere Berenguer</h5>
                             <hr>
-                            <cite class="card-text lh-lg">"El lugar perfecto para inspirarse en tus creaciones en un entorno sostenible y un ambiente muy agradable."</cite>
-                            <p class="card-text text-end mt-3"><small>Oficina: Madrid</small></p>
-                            <button type="button" class="btn btn-cldark my-1" data-bs-toggle="popover" data-bs-placement="bottom" title="Pere Berenguer" data-bs-content="30 años, ilustrador catalán, 6 años en Coworking Land.">
+                            <cite class="card-text lh-base">"El lugar perfecto para inspirarte en tus creaciones en un entorno sostenible y un ambiente muy agradable."</cite>
+                            <button type="button" class="btn btn-cldark mt-4 mb-2 me-3" data-bs-toggle="popover" data-bs-placement="bottom" title="Pere Berenguer" data-bs-content="30 años, ilustrador catalán, 6 años en Coworking Land.">
                                 Más info
                             </button>                        
                         </div>
@@ -302,7 +321,21 @@
             </section>
         </article>
     </main>
-    <!-- Modales con fotos oficinas-->
+    <!-- Footer -->
+    <footer class="d-flex flex-wrap justify-content-between align-items-center text-bg-cldark py-3 px-5">
+        <div class="col-md-4 d-flex align-items-center">
+            <img class="me-4" src="./img/logo.png" alt="Logo CoworkingLand" width="28" height="28">
+          <span class="py-1">Coworking Land © 2024</span>
+        </div>
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-4"><a href="#"><i class="fa-brands fa-linkedin fa-lg text-cllight"></i></a></li>
+            <li class="ms-4"><a href="#"><i class="fa-brands fa-square-twitter fa-lg text-cllight"></i></a></li>
+            <li class="ms-4"><a href="#"><i class="fa-brands fa-square-instagram fa-lg text-cllight"></i></a></li>
+            <li class="ms-4 me-2"><a href="#"><i class="fa-brands fa-facebook fa-lg text-cllight"></i></a></li>
+        </ul>
+      </footer>
+    <!-- Modales con fotos de oficinas-->
     <div id="modalBarcelona" class="modal" tabindex="-1">
         <div class="modal-dialog modal-dialog-centered modal-xl">
             <div class="modal-content text-bg-cldark border border-cllight">
