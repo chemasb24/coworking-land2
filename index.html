@@ -20,20 +20,20 @@
         </a>
         <ul class="nav nav-pills">
             <li class="nav-item">
-                <a class="nav-link text-cllight active" href="#quienes-somos">Quiénes somos</a>
+                <a class="nav-link text-cllight active rounded-0" href="#quienes-somos">Quiénes somos</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-cllight" href="#oficinas">Oficinas</a>
+                <a class="nav-link text-cllight rounded-0" href="#oficinas">Oficinas</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-cllight" href="#servicios">Servicios</a>
+                <a class="nav-link text-cllight rounded-0" href="#servicios">Servicios</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-cllight" href="#opiniones">Opiniones</a>
+                <a class="nav-link text-cllight rounded-0" href="#opiniones">Opiniones</a>
             </li>            
             <div class="vr mx-1"></div>            
             <li class="nav-item">
-                <a class="nav-link text-cllight icon-link icon-link-hover" href="#contactar">Contactar
+                <a class="nav-link text-cllight icon-link icon-link-hover" href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Contactar
                     <svg class="bi text-cllight" aria-hidden="false"><use xlink:href="#arrow-right"></use></svg>
                 </a>
             </li>   
@@ -80,7 +80,7 @@
             </section>
             <section class="container-fluid px-3 text-bg-clmedium mt-5 p-0" id="quienes-somos">
                 <!-- Quiénes somos-->
-                <h1 class="py-5 mb-4 mt-3">Qué ofrecemos en Coworking Land</h1>                       
+                <h1 class="py-5 mb-4 mt-3">Qué ofrecemos en Coworking Land</h1>
                 <div class="row g-4 row-cols-1 row-cols-md-2 row-cols-lg-4 pb-4">
                     <div class="feature col p-4">
                         <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
@@ -127,7 +127,7 @@
                                 <p class="card-text">Teléfono: 93.456.22.44</p>
                                 <p class="card-text">Móvil: 688.453.544</p>
                                 <p class="card-text pb-2">Email: <a class="text-cllight link-offset-2" href="mailto:barcelona@cwland.com">barcelona@cwland.com</a></p>
-                                <a href="/contacto.html" class="btn btn-cldark mt-2 mx-2" data-bs-toggle="modal" data-bs-target="#modalBarcelona">Ver oficina</a> <a href="/contacto.html" class="btn btn-cldark mt-2 mx-2">Contactar</a>
+                                <a href="#" class="btn btn-cldark mt-2 mx-2" data-bs-toggle="modal" data-bs-target="#modalBarcelona">Ver oficina</a> <a href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" class="btn btn-cldark mt-2 mx-2">Contactar</a>
                             </div>
                         </div>
                         <!-- Datos de oficina -->
@@ -150,7 +150,7 @@
                                 <p class="card-text">Teléfono: 91.332.14.89</p>
                                 <p class="card-text">Móvil: 679.522.165</p>
                                 <p class="card-text pb-2">Email: <a class="text-cllight link-offset-2" href="mailto:madrid@cwland.com">madrid@cwland.com</a></p>
-                                <a href="/contacto.html" class="btn btn-cldark mt-2 mx-2" data-bs-toggle="modal" data-bs-target="#modalMadrid">Ver oficina</a> <a href="/contacto.html" class="btn btn-cldark mt-2 mx-2">Contactar</a>
+                                <a href="/contacto.html" class="btn btn-cldark mt-2 mx-2" data-bs-toggle="modal" data-bs-target="#modalMadrid">Ver oficina</a> <a href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" class="btn btn-cldark mt-2 mx-2">Contactar</a>
                             </div>
                         </div>
                         <!-- Datos de oficina -->
@@ -366,6 +366,96 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+    <!-- Offcanvas de formulario de contacto -->
+    <div class="offcanvas offcanvas-end text-bg-cllight" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header text-bg-cldark">
+            <h4 class="offcanvas-title py-2 ps-3" id="offcanvasRightLabel">Formulario de contacto</h4>
+            <button type="button" class="btn-close text-bg-light me-1" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <form class="needs-validation px-3" novalidate>
+                <div class="row g-3">
+                    <div class="col-12 mt-4">
+                        <label for="introduccion" class="form-label">Introduzca sus datos y en breve contactaremos con usted.</label>
+                    </div>
+                    <hr class="mb-2">
+                    <div class="col-12 mb-2">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" placeholder="" value="" required>
+                        <div class="invalid-feedback">
+                            Introduzca un nombre válido.
+                        </div>
+                    </div>        
+                    <div class="col-12 mb-2">
+                        <label for="apellidos" class="form-label">Apellidos</label>
+                        <input type="text" class="form-control" id="apellidos" placeholder="" value="" required>
+                        <div class="invalid-feedback">
+                            Introduzca unos apellidos válidos.
+                        </div>
+                    </div>
+                    <div class="col-12 mb-2">
+                        <label for="email" class="form-label">Correo electrónico</label>
+                        <input type="email" class="form-control" id="email" placeholder="nombre@email.com" value="" required>
+                        <div class="invalid-feedback">
+                            Introduzca una dirección válida.
+                        </div>
+                    </div>
+                    <div class="col-6 mb-2">
+                        <label for="telefono" class="form-label">Teléfono</label>
+                        <input type="text" class="form-control" id="telefono" placeholder="" value="" required>
+                        <div class="invalid-feedback">
+                            Introduzca un teléfono válido.
+                        </div>
+                    </div> 
+                    <div class="col-6 mb-2">
+                        <label for="pais" class="form-label">País <span class="text-body-secondary">(Opcional)</span></label>
+                        <input type="text" class="form-control" id="pais" placeholder="España">
+                        <div class="invalid-feedback">
+                            Introduzca un país válido.
+                        </div>
+                    </div>
+                    <div class="col-12 mb-2">
+                        <label for="ciudad" class="form-label">Ciudad <span class="text-body-secondary">(Opcional)</span></label>
+                        <input type="text" class="form-control" id="ciudad" placeholder="Barcelona">
+                        <div class="invalid-feedback">
+                            Introduzca una ciudad válida.
+                        </div>
+                    </div>
+                    <hr class="mt-4 mb-2">
+                    <div class="col-12">
+                        <label for="edad" class="form-label">Oficina a contactar</label>
+                        <select class="form-select" id="edad">
+                            <option value="">Seleccione una opción...</option>
+                            <option>Oficina de Barcelona</option>
+                            <option>Oficina de Madrid</option>
+                            <option>Consulta general</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Seleccione una opción válida.
+                        </div>
+                    </div>
+                    <div class="col-6 form-check my-4 mb-4 ps-5">
+                        <input id="particular" name="paymentMethod" type="radio" class="form-check-input" checked required>
+                        <label class="form-check-label" for="particular">Particular</label>
+                    </div>
+                    <div class="col-6 form-check my-4 mb-4 ps-5">
+                        <input id="empresa" name="paymentMethod" type="radio" class="form-check-input" required>
+                        <label class="form-check-label" for="empresa">Empresa</label>
+                    </div>
+                    <hr class="mt-2 mb-2">
+                    <div class="col-12 mb-2">
+                        <label for="mensaje" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="mensaje" rows="4"></textarea>
+                        <div class="invalid-feedback">
+                            Introduzca un mensaje válido.
+                        </div>
+                      </div>
+                </div>          
+                <button class="w-100 text-center btn btn-cldark btn-lg mt-4 mb-3" type="submit">Enviar</button>
+                <small class="text-body-secondary">Gracias por su mensaje.</small>
+            </form>
         </div>
     </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>

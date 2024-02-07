@@ -15,7 +15,6 @@ h1, h2 {
 
 #menu-superior .active{
     background-color: #00796B;
-    text-transform: uppercase;
     font-weight: bold;
 }
 
