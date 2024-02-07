@@ -30,8 +30,7 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link text-cllight rounded-0" href="#opiniones">Opiniones</a>
-            </li>            
-            <div class="vr mx-1"></div>            
+            </li>   
             <li class="nav-item">
                 <a class="nav-link text-cllight icon-link icon-link-hover" href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Contactar
                     <svg class="bi text-cllight" aria-hidden="false"><use xlink:href="#arrow-right"></use></svg>
@@ -209,7 +208,7 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="row p-0 m-0">
+                <div class="row p-0 mb-4">
                     <div class="col-md-6 p-0 m-0">
                         <ul class="list-group rounded-0">
                             <li class="list-group-item list-group-item-action active text-bg-cldark fs-4 py-3 fw-bold border-0">Horario de nuestra oficina en Barcelona</li>
@@ -232,7 +231,7 @@
             <section class="container-fluid g-0 my-4 p-3" id="opiniones">
                 <h1 class="text-clmedium fw-bold py-4 mb-2 mt-3">Opiniones de nuestros coworkers</h1>
                 <!-- Contenedor de Opiniones-->
-                <div class="d-flex flex-wrap justify-content-evenly align-items-end mt-4 mb-5 mx-4">
+                <div class="d-flex flex-wrap justify-content-evenly align-items-end mt-4 mb-2 mx-4">
                     <!-- Contenedor de Opinión -->
                     <div class="d-flex flex-column card mx-3 mb-5 border-clmedium" style="width: 20rem;">
                         <!-- Imagen -->
@@ -323,12 +322,12 @@
     </main>
     <!-- Footer -->
     <footer class="d-flex flex-wrap justify-content-between align-items-center text-bg-cldark py-3 px-5">
-        <div class="col-md-4 d-flex align-items-center">
+        <div class="col-md-6 d-flex align-items-center">
             <img class="me-4" src="./img/logo.png" alt="Logo CoworkingLand" width="28" height="28">
           <span class="py-1">Coworking Land © 2024</span>
         </div>
     
-        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <ul class="nav col-md-6 justify-content-end list-unstyled d-flex">
             <li class="ms-4"><a href="#"><i class="fa-brands fa-linkedin fa-lg text-cllight"></i></a></li>
             <li class="ms-4"><a href="#"><i class="fa-brands fa-square-twitter fa-lg text-cllight"></i></a></li>
             <li class="ms-4"><a href="#"><i class="fa-brands fa-square-instagram fa-lg text-cllight"></i></a></li>
@@ -372,13 +371,13 @@
     <div class="offcanvas offcanvas-end text-bg-cllight" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
         <div class="offcanvas-header text-bg-cldark">
             <h4 class="offcanvas-title py-2 ps-3" id="offcanvasRightLabel">Formulario de contacto</h4>
-            <button type="button" class="btn-close text-bg-light me-1" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <button type="button" class="btn-close text-bg-light me-3" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
             <form class="needs-validation px-3" novalidate>
                 <div class="row g-3">
                     <div class="col-12 mt-4">
-                        <label for="introduccion" class="form-label">Introduzca sus datos y en breve contactaremos con usted.</label>
+                        <label for="introduccion" class="form-label">Rellene la siguiente información y responderemos lo antes posible.</label>
                     </div>
                     <hr class="mb-2">
                     <div class="col-12 mb-2">
@@ -425,9 +424,8 @@
                     </div>
                     <hr class="mt-4 mb-2">
                     <div class="col-12">
-                        <label for="edad" class="form-label">Oficina a contactar</label>
+                        <label for="edad" class="form-label" required>Oficina a contactar</label>
                         <select class="form-select" id="edad">
-                            <option value="">Seleccione una opción...</option>
                             <option>Oficina de Barcelona</option>
                             <option>Oficina de Madrid</option>
                             <option>Consulta general</option>
@@ -454,7 +452,7 @@
                       </div>
                 </div>          
                 <button class="w-100 text-center btn btn-cldark btn-lg mt-4 mb-3" type="submit">Enviar</button>
-                <small class="text-body-secondary">Gracias por su mensaje.</small>
+                <p class="text-center mb-0"><small class="text-body-secondary">Gracias por su mensaje.</small></p>
             </form>
         </div>
     </div>
