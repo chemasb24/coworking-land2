@@ -22,11 +22,7 @@ h1, h2 {
     color: #E0F2F1;
 }
 
-.navbar-brand, #opiniones .card-title{
+.navbar-brand, #opiniones .card-title, .carrusel-item h3{
     font-family: "DM Serif Display", sans-serif;
     font-size: 1.3em;
-}
-
-.carrusel-item h3{
-    font-family: "DM Serif Display", sans-serif;    
 }
