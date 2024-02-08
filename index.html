@@ -361,60 +361,53 @@
     <!-- Offcanvas de formulario de contacto -->
     <div class="offcanvas offcanvas-end text-bg-cllight" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
         <div class="offcanvas-header text-bg-cldark">
-            <h5 class="offcanvas-title py-2 ps-3" id="offcanvasRightLabel">Formulario de contacto</h5>
-            <button type="button" class="btn-close text-bg-light me-3" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <h5 class="offcanvas-title ps-3" id="offcanvasRightLabel">Formulario de contacto</h5>
+            <button type="button" class="btn-close text-bg-light me-2" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
             <form class="needs-validation px-3" novalidate>
                 <div class="row g-3">
-                    <div class="col-12 mt-4">
+                    <div class="col-12 mt-3">
                         <label class="form-label">Rellene la siguiente información y le responderemos lo antes posible.</label>
                     </div>
-                    <hr class="mb-2">
-                    <div class="col-12">
-                        <label for="nombre" class="form-label">Nombre</label>
+                    <hr class="my-2">
+                    <div class="col-12 my-1">
+                        <label for="nombre" class="form-label">Nombre y apellidos</label>
                         <input type="text" class="form-control" id="nombre" placeholder="" value="" required>
                         <div class="invalid-feedback">
                             Introduzca un nombre válido.
                         </div>
-                    </div>        
-                    <div class="col-12">
-                        <label for="apellidos" class="form-label">Apellidos</label>
-                        <input type="text" class="form-control" id="apellidos" placeholder="" value="" required>
-                        <div class="invalid-feedback">
-                            Introduzca unos apellidos válidos.
-                        </div>
                     </div>
-                    <div class="col-12">
+                    <div class="col-12 my-2">
                         <label for="email" class="form-label">Correo electrónico</label>
                         <input type="email" class="form-control" id="email" placeholder="nombre@email.com" value="" required>
                         <div class="invalid-feedback">
                             Introduzca una dirección válida.
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-6 my-2">
                         <label for="telefono" class="form-label">Teléfono</label>
                         <input type="text" class="form-control" id="telefono" placeholder="" value="" required>
                         <div class="invalid-feedback">
                             Introduzca un teléfono válido.
                         </div>
                     </div> 
-                    <div class="col-6">
+                    <div class="col-6 my-2">
                         <label for="pais" class="form-label">País <span class="text-body-secondary">(Opcional)</span></label>
                         <input type="text" class="form-control" id="pais" placeholder="España">
                         <div class="invalid-feedback">
                             Introduzca un país válido.
                         </div>
                     </div>
-                    <div class="col-12">
+                    <div class="col-12 my-2">
                         <label for="ciudad" class="form-label">Ciudad <span class="text-body-secondary">(Opcional)</span></label>
                         <input type="text" class="form-control" id="ciudad" placeholder="Barcelona">
                         <div class="invalid-feedback">
                             Introduzca una ciudad válida.
                         </div>
                     </div>
-                    <hr class="mt-4">
-                    <div class="col-12">
+                    <hr class="my-2">
+                    <div class="col-12 my-2">
                         <label for="edad" class="form-label">Oficina a contactar</label>
                         <select class="form-select" id="edad">
                             <option>Oficina de Barcelona</option>
@@ -425,25 +418,25 @@
                             Seleccione una opción válida.
                         </div>
                     </div>
-                    <div class="col-6 form-check my-4 mb-3 ps-5">
-                        <input id="particular" name="paymentMethod" type="radio" class="form-check-input" checked required>
+                    <div class="col-6 form-check my-2 ps-5">
+                        <input id="particular" name="particular" type="radio" class="form-check-input" checked required>
                         <label class="form-check-label" for="particular">Particular</label>
                     </div>
-                    <div class="col-6 form-check my-4 mb-3 ps-5">
+                    <div class="col-6 form-check my-2 ps-5">
                         <input id="empresa" name="paymentMethod" type="radio" class="form-check-input" required>
                         <label class="form-check-label" for="empresa">Empresa</label>
                     </div>
-                    <hr class="mt-2 mb-2">
-                    <div class="col-12 mb-2">
+                    <hr class="my-2">
+                    <div class="col-12 my-2">
                         <label for="mensaje" class="form-label">Mensaje</label>
-                        <textarea class="form-control" id="mensaje" rows="4" required></textarea>
+                        <textarea class="form-control" id="mensaje" rows="3" required></textarea>
                         <div class="invalid-feedback">
                             Introduzca un mensaje válido.
                         </div>
                       </div>
                 </div>          
-                <button class="w-100 text-center btn btn-cldark btn-lg mt-4 mb-3" type="submit">Enviar</button>
-                <p class="text-center mb-0"><small class="text-body-secondary">Gracias por su mensaje.</small></p>
+                <button class="w-100 text-center btn btn-cldark btn-lg mt-3 mb-2 py-1" type="submit">Enviar</button>
+                <p class="text-center"><small class="text-body-secondary">Gracias por su mensaje.</small></p>
             </form>
         </div>
     </div>
