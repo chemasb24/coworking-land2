@@ -12,7 +12,7 @@ h1, h2 {
 
 /* IDs y clases */
 
-#menu-superior .active, #nav-contacto:hover{
+#menu-superior .active, .nav-link:hover{
     background-color: #00796B;
 }
 
