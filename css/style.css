@@ -3,7 +3,7 @@ body{
 }
 
 main{
-    margin-top: 72px;
+    margin-top: 64px;
 }
 
 h1, h2 {
@@ -12,9 +12,8 @@ h1, h2 {
 
 /* IDs y clases */
 
-#menu-superior .active{
+#menu-superior .active, #nav-contacto:hover{
     background-color: #00796B;
-    font-weight: bold;
 }
 
 .popover-header{
@@ -25,4 +24,8 @@ h1, h2 {
 .navbar-brand, #opiniones .card-title, .carrusel-item h3{
     font-family: "DM Serif Display", sans-serif;
     font-size: 1.3em;
+}
+
+{
+
 }
